@@ -2,8 +2,8 @@
 Log my Leetcode journey and my solutions.
 
 ## Easy
-- Running Sum of 1D Array
-- Richest Customer Wealth
+- 1480. Running Sum of 1D Array
+- 1672. Richest Customer Wealth
 
 ## Medium
 Coming soon...

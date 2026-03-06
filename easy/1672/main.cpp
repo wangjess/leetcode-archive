@@ -1,20 +1,24 @@
 //https://leetcode.com/explore/featured/card/the-leetcode-beginners-guide/692/challenge-problems/4423/
 #include <iostream>
 #include <set>
+#include <algorithm>
 
+// Basic nested for loop
+// Time: O(m * n) where m == rows and n == columns
+// Space: O(n)
 int maximumWealth(std::vector<std::vector<int>>& accounts) {
 	int max_wealth = 0;
-	std::set<int> s;
 
-	for (int i = 0; i < accounts.size(); i++) {
-		max_wealth = 0;
-		for (int j = 0; j < accounts[i].size(); j++) {
-			max_wealth = max_wealth + accounts[i][j];
+	// Pass by ref to avoid copying each vector<int> row
+	for (auto &i : accounts) {
+		int wealth = 0;
+		for (auto money : i) {
+			wealth += money; 
 		}
-		s.insert(max_wealth);
+		max_wealth = std::max(max_wealth, wealth);
 	}
 
-	return *s.rbegin();
+	return max_wealth;
 }
 
 void check_answer(int sol, int my_sol) {

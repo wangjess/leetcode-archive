@@ -5,7 +5,7 @@
 
 // Basic nested for loop
 // Time: O(m * n) where m == rows and n == columns
-// Space: O(n)
+// Space: O(1)
 int maximumWealth(std::vector<std::vector<int>>& accounts) {
 	int max_wealth = 0;
 

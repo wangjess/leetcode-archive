@@ -3,6 +3,8 @@
 
 using namespace std;
 
+// O(1) space 
+// O(log_2(n))
 int numberOfSteps(int num) {
 	int steps = 0;
 

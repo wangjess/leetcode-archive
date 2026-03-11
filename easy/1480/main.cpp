@@ -1,6 +1,8 @@
 // https://leetcode.com/problems/running-sum-of-1d-array/
 #include <iostream>
 
+// O(n) space
+// O(n) time
 std::vector<int> runningSum(std::vector<int>& nums) {
 	int size = nums.size();
 

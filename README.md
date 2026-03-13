@@ -7,6 +7,7 @@ Log my Leetcode journey and my solutions.
 -  #412. FizzBuzz
 -  #1342. Number of Steps to Reduce a Number to Zero
 -  #876. Middle of the Linked List
+-  #383. Ransom Note
 
 ## Medium
 Coming soon...

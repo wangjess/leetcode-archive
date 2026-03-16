@@ -9,6 +9,7 @@ Log my Leetcode journey and my solutions.
 -  #876. Middle of the Linked List
 -  #383. Ransom Note
 -  #13. Roman to Integer
+-  #66. Plus One
 
 ## Medium
 Coming soon...

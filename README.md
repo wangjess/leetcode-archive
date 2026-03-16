@@ -10,6 +10,7 @@ Log my Leetcode journey and my solutions.
 -  #383. Ransom Note
 -  #13. Roman to Integer
 -  #66. Plus One
+-  #83. Remove Duplicates from Sorted List
 
 ## Medium
 Coming soon...

@@ -1,5 +1,6 @@
 //https://leetcode.com/problems/middle-of-the-linked-list/description/
 #include <iostream>
+#include <cassert>
 
 using namespace std;
 
@@ -42,17 +43,7 @@ void deleteList(ListNode* &head) {
 	}
 }
 
-void check_answer(ListNode* a, ListNode* b) {
-	if (a == b) {
-		cout << "Equal\n";
-	} else {
-		cerr << "Failure\n";
-	}
-}
-
 int main() {
-	cout << "Init...\n";
-
 	// Example 1
 	ListNode* head = nullptr;
 	head = pushFront(head, 5);
@@ -88,14 +79,14 @@ int main() {
 	solution_3 = head3->next;
 
 	// Testing...
-	ListNode* sol_ex_1 = middleNode(head);
-	check_answer(sol_ex_1, solution_1);
+	ListNode* middle1 = middleNode(head);
+	assert(middle1 == solution_1);
 
-	ListNode* sol_ex_2 = middleNode(head2);
-	check_answer(sol_ex_2, solution_2);
+	ListNode* middle2 = middleNode(head2);
+	assert(middle2 == solution_2);
 
-	ListNode* sol_ex_3 = middleNode(head3);
-	check_answer(sol_ex_3, solution_3);
+	ListNode* middle3 = middleNode(head3);
+	assert(middle3 == solution_3);
 
 	// Cleanup...
 	deleteList(head);

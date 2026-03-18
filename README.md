@@ -11,6 +11,7 @@ Log my Leetcode journey and my solutions.
 -  #13. Roman to Integer
 -  #66. Plus One
 -  #83. Remove Duplicates from Sorted List
+-  #69. Sqrt(x)
 
 ## Medium
 Coming soon...

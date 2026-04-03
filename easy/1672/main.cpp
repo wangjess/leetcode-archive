@@ -1,6 +1,5 @@
 //https://leetcode.com/explore/featured/card/the-leetcode-beginners-guide/692/challenge-problems/4423/
 #include <iostream>
-#include <set>
 #include <algorithm>
 
 // Basic nested for loop

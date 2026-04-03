@@ -14,7 +14,7 @@ Log my Leetcode journey and my solutions.
 -  #69. Sqrt(x)
 
 ## Medium
-Coming soon...
+- #151. Reverse Words in a String
 
 ## Hard
 Coming later...

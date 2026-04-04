@@ -5,6 +5,8 @@
 
 using namespace std;
 
+// O(n) time
+// O(n) space
 string reverseWords(string s) {
 	istringstream iss(s);
 	string word;

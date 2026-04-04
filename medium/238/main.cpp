@@ -5,6 +5,8 @@
 
 using namespace std;
 
+// O(n) time
+// O(n) space
 vector<int> productExceptSelf(vector<int>& nums) {
         vector<int> prefix, suffix, result;
         suffix.reserve(nums.size());

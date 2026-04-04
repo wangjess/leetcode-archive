@@ -15,6 +15,7 @@ Log my Leetcode journey and my solutions.
 
 ## Medium
 - #151. Reverse Words in a String
+- #238. Product of Array Except Self
 
 ## Hard
 Coming later...

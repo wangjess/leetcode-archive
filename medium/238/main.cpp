@@ -6,25 +6,20 @@
 using namespace std;
 
 // O(n) time
-// O(n) space
+// O(1) space
 vector<int> productExceptSelf(vector<int>& nums) {
-        vector<int> prefix, suffix, result;
-        suffix.reserve(nums.size());
+        vector<int> result;
         
         int product = 1;
         for (int i = 0; i < nums.size(); i++) {
             product = (i > 0 ? product * nums[i-1] : 1);
-            prefix.push_back(product);
+            result.push_back(product);
         }
 
         product = 1;
         for (int i = nums.size() - 1; i >= 0; i--) {
             product = (i < nums.size() - 1 ? product * nums[i+1] : 1);
-            suffix[i] = product;
-        }
-
-        for (int i = 0; i < nums.size(); i++) {
-            result.push_back(prefix[i] * suffix[i]);
+            result[i] = result[i] * product;
         }
 
         return result; 

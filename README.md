@@ -17,6 +17,7 @@ Log my Leetcode journey and my solutions.
 - #151. Reverse Words in a String
 - #238. Product of Array Except Self
 - #334. Increasing Triplet Subsequence
+- #443. String Compression
 
 ## Hard
 Coming later...

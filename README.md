@@ -21,6 +21,7 @@ Log my Leetcode journey and my solutions.
 - #443. String Compression
 - #11. Container With Most Water
 - #1679. Max Number of K-Sum Pairs
+- #1456. Maximum Number of Vowels in a Substring of Given Length
 
 ## Hard
 Coming later...

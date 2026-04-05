@@ -19,6 +19,7 @@ Log my Leetcode journey and my solutions.
 - #334. Increasing Triplet Subsequence
 - #443. String Compression
 - #11. Container With Most Water
+- #1679. Max Number of K-Sum Pairs
 
 ## Hard
 Coming later...

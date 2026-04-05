@@ -5,13 +5,14 @@ Log my Leetcode journey and my solutions.
 -  #1480. Running Sum of 1D Array
 -  #1672. Richest Customer Wealth
 -  #412. FizzBuzz
--  #1342. Number of Steps to Reduce a Number to Zero
+-  rgba(90, 127, 146, 0.13). Number of Steps to Reduce a Number to Zero
 -  #876. Middle of the Linked List
 -  #383. Ransom Note
 -  #13. Roman to Integer
 -  #66. Plus One
 -  #83. Remove Duplicates from Sorted List
 -  #69. Sqrt(x)
+- #1732. Find the Highest Altitude
 
 ## Medium
 - #151. Reverse Words in a String
